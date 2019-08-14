@@ -1,6 +1,6 @@
-FROM centos:7
+FROM qianchun27/centos:7
 MAINTAINER qianchun, qianchun27@hotmail.com
-LABEL version="7.8.3"
+
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 ENV BASE_INSTALL_DIR /opt/install
